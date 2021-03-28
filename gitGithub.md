@@ -30,3 +30,12 @@ fusionner une branche dans la branche active :***git merge ( + nom-branche)***
 lister les conflits. Pour visualiser les conflits d’un fichier : ***git diff --base (nom-fichier)***
 afficher les conflits entre les branches à fusionner avant de les fusionner: ***git diff (branche-source) (branche-cible)***
 Pour simplement énumérer tous les conflits actuels, utilisez: ***git diff***
+### Git log --oneline 
+liste les commits et leur numéro de hashage 
+### Git revert 
+git revert (+ numéro de hashage) 
+revenir en arrière sur un commit ( on garde la trace avec revert ) + :wq
+### Git commit --amend 
+revient sur le dernier commit pour rajouter un élement (stagger le commit avant ) 
+
+
